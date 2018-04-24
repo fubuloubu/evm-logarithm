@@ -12,7 +12,7 @@ contract Log
     {
         assert(a > 1);
         assert(b > 1);
-        assert(a > b);
+        assert(a >= b);
 
         for (c = 0; c <= 256; c++)
         {
