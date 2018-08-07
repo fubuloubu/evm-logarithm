@@ -11,6 +11,6 @@ def log(a: int128, b: int128) -> int128:
             break
         if (c % b > 0):
             break
-        c = floor(c / b)
+        c /= b
         res += 1
     return res
